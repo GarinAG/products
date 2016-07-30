@@ -12,14 +12,7 @@
 Via Composer
 
 ``` bash
-$ composer require Intergit/Products
-```
-
-## Usage
-
-``` php
-$skeleton = new League\Skeleton();
-echo $skeleton->echoPhrase('Hello, League!');
+$ composer require intergit/products
 ```
 
 ## Change log
