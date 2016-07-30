@@ -13,7 +13,7 @@ class PrsoProductController extends Controller
         if ($product = Product::where('slug', $slug)->first()) {
             $parentCategores = $product->categories;
             $pathCategory = Category::find($categoryid);
-            return view('Productso::product_show', compact('product', 'parentCategores', 'pathCategory'));
+            return view('Products::product_show', compact('product', 'parentCategores', 'pathCategory'));
         }
         abort(404);
     }

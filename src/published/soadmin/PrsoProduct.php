@@ -23,7 +23,7 @@ Admin::model('Intergit\Products\Models\PrsoProduct')->title('Товары')->dis
         FormItem::text('slug', 'Ярлык (если не заполнять генерируется автоматически)'),
         FormItem::text('status', 'Статус'),
         FormItem::text('artikul', 'Артикул'),
-        FormItem::multiselect('categories', 'Категории')->model('Angrydeer\Productso\Models\PrsoCategory')->display('name'),
+        FormItem::multiselect('categories', 'Категории')->model('Intergit\Products\Models\PrsoCategory')->display('name'),
         FormItem::text('views', 'Просмотры')->readonly(),
         FormItem::checkbox('show', 'Включен')->defaultValue(true),
 //		FormItem::checkbox('complected', 'Complected'),
