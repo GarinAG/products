@@ -12,12 +12,25 @@
 Via Composer
 
 ``` bash
-$ composer require intergit/products
+$ composer require Intergit/Products
+```
+
+## Usage
+
+``` php
+$skeleton = new League\Skeleton();
+echo $skeleton->echoPhrase('Hello, League!');
 ```
 
 ## Change log
 
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
+
+## Testing
+
+``` bash
+$ composer test
+```
 
 ## Contributing
 
